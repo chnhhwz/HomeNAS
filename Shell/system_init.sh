@@ -19,4 +19,4 @@ EOF
 apt update && apt upgrade -y
 
 # 安装必备软件
-apt install -y sudo curl git vim wget exim4 gnupg smartmontools mergerfs apt-transport-https ca-certificates
+apt install -y curl git vim wget exim4 gnupg apt-transport-https ca-certificates smartmontools mergerfs ethtool
